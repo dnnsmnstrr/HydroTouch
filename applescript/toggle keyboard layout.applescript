@@ -1,1 +1,0 @@
---TODO get current keyboard layout and switch to the next one
