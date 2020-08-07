@@ -1,9 +1,9 @@
 {
-  "BTTPresetCreatorNotes" : "Included are the globally available named triggers for HydroTouch",
-  "BTTPresetInfoURL" : "https:\/\/github.com\/dnnsmnstrr\/HydroTouch",
-  "BTTPresetName" : "HydroTriggers v1.0.0",
+  "BTTPresetCreatorNotes" : "",
+  "BTTPresetInfoURL" : "",
+  "BTTPresetName" : "HydroTriggers v1.0.1",
   "BTTPresetColor" : "4.285065, 50.579504, 255.000000, 255.000000",
-  "BTTPresetUUID" : "1A846C8A-93F7-477C-8AF1-A566CADF8F22",
+  "BTTPresetUUID" : "A8B79EA2-A561-4302-9287-46A4589B9121",
   "BTTPresetContent" : [
     {
       "BTTActivationGroupName" : "💧 HydroTriggers",
@@ -1920,6 +1920,38 @@
           ]
         },
         {
+          "BTTGestureNotes" : "menubar test",
+          "BTTTriggerType" : 680,
+          "BTTTriggerTypeDescription" : "Menubar Item: menubar test",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTPredefinedActionType" : 171,
+          "BTTPredefinedActionName" : "Capture Screenshot then edit in BTT (easiest)",
+          "BTTEnabled2" : 0,
+          "BTTRepeatDelay" : 0,
+          "BTTUUID" : "94916CF0-7277-4449-9BB6-6750A1F9ED7B",
+          "BTTNotesInsteadOfDescription" : 0,
+          "BTTEnabled" : 1,
+          "BTTModifierMode" : 0,
+          "BTTOrder" : 8,
+          "BTTDisplayOrder" : 0,
+          "BTTTriggerConfig" : {
+            "BTTScriptType" : 3,
+            "BTTTouchBarButtonLineHeight" : 0,
+            "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+            "BTTTouchBarButtonTextAlignment" : 0,
+            "BTTTouchBarItemIconWidth" : 22,
+            "BTTTouchBarButtonTopMargin" : 0,
+            "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+            "BTTTouchBarScriptUpdateInterval" : 0,
+            "BTTTouchBarButtonFontSize" : 15,
+            "BTTTouchBarAppleScriptString" : "returnToBTT(new Date());",
+            "BTTTouchBarAppleScriptStringRunOnInit" : false,
+            "BTTTouchBarAppleScriptUsePath" : 0,
+            "BTTTouchBarOnlyShowIcon" : false,
+            "BTTTouchBarItemIconHeight" : 22
+          }
+        },
+        {
           "BTTTriggerType" : 630,
           "BTTTriggerTypeDescription" : "Group",
           "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
@@ -1956,7 +1988,7 @@
               "BTTNotesInsteadOfDescription" : 0,
               "BTTEnabled" : 1,
               "BTTModifierMode" : 0,
-              "BTTOrder" : 7,
+              "BTTOrder" : 0,
               "BTTDisplayOrder" : 0
             },
             {
@@ -1978,7 +2010,7 @@
               "BTTNotesInsteadOfDescription" : 0,
               "BTTEnabled" : 1,
               "BTTModifierMode" : 0,
-              "BTTOrder" : 8,
+              "BTTOrder" : 1,
               "BTTDisplayOrder" : 0,
               "BTTClipboardTransformerInfo" : {
                 "BTTClipboardTransformerExampleInput" : "hello.md",
@@ -2006,7 +2038,7 @@
               "BTTNotesInsteadOfDescription" : 0,
               "BTTEnabled" : 1,
               "BTTModifierMode" : 0,
-              "BTTOrder" : 9,
+              "BTTOrder" : 2,
               "BTTDisplayOrder" : 0,
               "BTTClipboardTransformerInfo" : {
                 "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n   return '(' + clipboardContentString + ')'\n}",
@@ -2018,6 +2050,21 @@
                 }
               },
               "BTTClipboardTransformerName" : "paranthesize"
+            },
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+              "BTTPredefinedActionType" : -1,
+              "BTTPredefinedActionName" : "No Action",
+              "BTTEnabled2" : 1,
+              "BTTAlternateModifierKeys" : 0,
+              "BTTRepeatDelay" : 0,
+              "BTTUUID" : "05197C4C-BD61-44E6-903F-484A7F2DDDA3",
+              "BTTNotesInsteadOfDescription" : 0,
+              "BTTEnabled" : 1,
+              "BTTModifierMode" : 0,
+              "BTTOrder" : 3,
+              "BTTDisplayOrder" : 0
             }
           ]
         },
