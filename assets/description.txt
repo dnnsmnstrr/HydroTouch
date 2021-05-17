@@ -1,6 +1,4 @@
 # HydroTouch
-This preset is an extension to AquaTouch. It provides additional functionality and works in conjunction with HydroGestures
+This preset is an extension to AquaTouch. It provides an additional layer of functionality and requires HydroGestures
 # HydroGestures
-This preset includes the Gestures & Shortcuts of the HydroTouch preset, an extension for AquaTouch
-# HydroTriggers
-Includes the globally available named triggers for HydroTouch
+This preset includes the Gestures, Shortcuts and Named Triggers for HydroTouch

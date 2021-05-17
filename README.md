@@ -1,7 +1,7 @@
 # Welcome to HydroTouch! 💧
 
 This is a heavily personalized and customized ~~preset based on~~
-extension for the amazing [AquaTouch](https://community.folivora.ai/c/setup-preset-sharing/aquatouch) [Preset]() for [BetterTouchTool](https://folivora.ai) by [@yuuiko](https://github.com/yuuiko).
+extension for the amazing [AquaTouch](https://community.folivora.ai/c/setup-preset-sharing/aquatouch) [Preset](https://github.com/yuuiko/AquaTouch) for [BetterTouchTool](https://folivora.ai) by [@yuuiko](https://github.com/yuuiko).
 
 Check out the [wiki](https://github.com/dnnsmnstrr/dotfiles/wiki) for more info!
 
