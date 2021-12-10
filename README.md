@@ -1,22 +1,30 @@
-# Welcome to HydroTouch! 💧
+# HydroTouch 💧
 
-This is a heavily personalized and customized ~~preset based on~~
-extension for the amazing [AquaTouch](https://community.folivora.ai/c/setup-preset-sharing/aquatouch) [Preset]() for [BetterTouchTool](https://folivora.ai) by [@yuuiko](https://github.com/yuuiko).
+This is a heavily personalized and customized extension for the amazing [AquaTouch](https://community.folivora.ai/c/setup-preset-sharing/aquatouch) [Preset]() for [BetterTouchTool](https://folivora.ai) by [@yuuiko](https://github.com/yuuiko).
 
-Check out the [wiki](https://github.com/dnnsmnstrr/dotfiles/wiki) for more info!
-
-# [Releases](https://github.com/dnnsmnstrr/dotfiles/releases)
+## [Releases](https://github.com/dnnsmnstrr/dotfiles/releases)
 
 This is the first release, to install, just [download the preset files](https://github.com/dnnsmnstrr/dotfiles/releases/tag/v0.1) files and open them with BTT.
 
-# [Installation](https://github.com/dnnsmnstrr/dotfiles/wiki/Installation)
+## [Installation](https://github.com/dnnsmnstrr/dotfiles/wiki/Installation)
 
-Due to the existing limitations of updating presets in BTT, I have reworked HydroTouch to function as an extension layer on top of AquaTouch. Nevertheless there are some changes needed to achieve the setup I prefer. I am beginning to document the necessary modifications in comments within HydroTouch where possible and will try to list the most important ones [in the wiki](https://github.com/dnnsmnstrr/dotfiles/wiki).
+Due to the existing limitations of updating presets in BTT, I have reworked HydroTouch to function as an extension layer on top of AquaTouch. Nevertheless there are some changes needed to achieve the setup I prefer:
 
-# BTT Setup
+### AquaTouch Update Steps
+
+1. Install [latest AquaTouch version](https://community.folivora.ai/t/aquatouch-updates-only-thread/6746)
+1. Disable unused notification badges (News, Safari, Skype), ensure HydroTouch-Badges still work (Mattermost)
+1. Change condition for `BetterTouchTool` activation group so the custom touchbar setup can show up
+1. Update/Replace Triggers in Spotify & Unsupported Apps
+1. Hide AquaTouch in Configuration UI to avoid changes that will be lost in updates
+
+## BTT Setup
 
 - [Import duplicate presets](https://community.folivora.ai/t/cant-import-a-preset-without-replacing/10455/4)
-  `defaults write com.hegenberg.BetterTouchTool BTTImportDuplicatePresets YES`
+
+  ```sh
+  defaults write com.hegenberg.BetterTouchTool BTTImportDuplicatePresets YES
+  ```
 
 # Credits
 

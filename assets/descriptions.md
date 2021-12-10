@@ -9,7 +9,10 @@ HydroTouch is an extension to AquaTouch. It provides an additional layer of func
 This preset includes the Gestures, Shortcuts and Named Triggers for HydroTouch.
 
 ### HyperKey
-Additional shortcuts for my [HyperKey config](https://muensterer.xyz/zettelkasten/hyperkey)
+Additional shortcuts for my [HyperKey config](https://dnnsmnstrr.github.io/zettelkasten/hyperkey)
+
+### TouchTerminal
+Adds a console interface to run named triggers from an input field or the touch bar.
 
 ### URL
 
