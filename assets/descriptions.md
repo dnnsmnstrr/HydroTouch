@@ -5,7 +5,11 @@ These descriptions are included in the exported preset files.
 ### HydroTouch
 HydroTouch is an extension to AquaTouch. It provides an additional layer of functionality and requires the HydroGestures preset to work as intended.
 
+<<<<<<< Updated upstream
 ### HydroGestures
+=======
+### HydroTriggers
+>>>>>>> Stashed changes
 This preset includes the Gestures, Shortcuts and Named Triggers for HydroTouch.
 
 ### HyperKey

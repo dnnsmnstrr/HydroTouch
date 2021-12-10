@@ -1,0 +1,3 @@
+async (clipboardContentString) => {
+   return '(' + clipboardContentString + ')'
+}
