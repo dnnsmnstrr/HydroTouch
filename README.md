@@ -1,15 +1,17 @@
-# Welcome to HydroTouch! 💧
+# HydroTouch 💧
 
-This is a heavily personalized and customized ~~preset based on~~
-extension for the amazing [AquaTouch](https://community.folivora.ai/c/setup-preset-sharing/aquatouch) [Preset](https://github.com/yuuiko/AquaTouch) for [BetterTouchTool](https://folivora.ai) by [@yuuiko](https://github.com/yuuiko).
+This is a heavily personalized and customized preset inspired by [AquaTouch](https://github.com/yuuiko/AquaTouch) for [BetterTouchTool](https://folivora.ai).
 
-Check out the [wiki](https://github.com/dnnsmnstrr/dotfiles/wiki) for more info!
+Check out the [wiki](https://github.com/dnnsmnstrr/HydroTouch/wiki) for more info!
 
-# [Releases](https://github.com/dnnsmnstrr/dotfiles/releases)
+## Presets
 
-This is the first release, to install, just [download the preset files](https://github.com/dnnsmnstrr/dotfiles/releases/tag/v0.1) files and open them with BTT.
+In order to make importing and debugging more simple, the preset is split up over multiple files.
 
-# [Installation](https://github.com/dnnsmnstrr/dotfiles/wiki/Installation)
+- [HydroTouch](./HydroTouch.bttpresetzip) - The main preset with named triggers and app configurations
+- [HydroGestures](./HydroGestures.bttpreset) - Gestures and keyboard shortcuts
+- [HyperKey](./HyperKey.bttpreset) - HyperKey configuration
+# [Installation](https://github.com/dnnsmnstrr/hHydroTouch/wiki/Installation)
 
 Due to the existing limitations of updating presets in BTT, I have reworked HydroTouch to function as an extension layer on top of AquaTouch. Nevertheless there are some changes needed to achieve the setup I prefer. I am beginning to document the necessary modifications in comments within HydroTouch where possible and will try to list the most important ones [in the wiki](https://github.com/dnnsmnstrr/dotfiles/wiki).
 
@@ -20,6 +22,6 @@ Due to the existing limitations of updating presets in BTT, I have reworked Hydr
 
 # Credits
 
-- [yuuiko](https://community.folivora.ai/t/v3-5-0-aquatouch-supports-40-apps-and-websites-and-the-native-touchbar/1704) (click on the sponsor link uptop to support him, my preset would be nothing without the foundation his provides)
+- [AquaTouch](https://community.folivora.ai/c/setup-preset-sharing/aquatouch)
 - [andrewchidden](https://community.folivora.ai/t/a-standard-set-of-responsive-energy-efficient-widgets-volume-brightness-calendar-timer-world-clock-git/3083)
 - [vas3k](https://github.com/vas3k/btt-touchbar-presets)
